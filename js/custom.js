@@ -102,7 +102,7 @@ $(document).ready(function(){
     var scroll = $(window).scrollTop();
 
     if (scroll >= 50) {
-        $(".product--3c -sec").addClass("pro--active");
+        $(".product--header-sec").addClass("pro--active");
         $(".heade--parent--sec").addClass("fixed--header");
     } else {
         $(".product--header-sec").removeClass("pro--active");

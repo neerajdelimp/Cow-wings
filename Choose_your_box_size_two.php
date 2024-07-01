@@ -110,7 +110,6 @@
              </div>
 
             <!-- How often section end -->
-
             <button class="cust--btn"><a href="Select-6-Cuts.php">Next</a></button>
         </div>
     </section>
