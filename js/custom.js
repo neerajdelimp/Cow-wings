@@ -73,19 +73,36 @@ $(document).ready(function(){
       $(".mob--navbar").click(function(){
         $(".header-navbar").toggleClass("active");
         $(".hamburger--mpb .fa-bars").toggleClass("fa-times");
-
       });
 
 
+      // date pickere
+
+      $( function() {
+        $( "#datepicker" ).datepicker();
+      } );
+
+      //  toggle btn
+       
+       
+
+      $(".add-item").click(function(e){
+        e.preventDefault()
+        $(this).toggleClass("selact");
+      });
 
       
+      
   });
+  
+
+
   
   $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
     if (scroll >= 50) {
-        $(".product--header-sec").addClass("pro--active");
+        $(".product--3c -sec").addClass("pro--active");
         $(".heade--parent--sec").addClass("fixed--header");
     } else {
         $(".product--header-sec").removeClass("pro--active");

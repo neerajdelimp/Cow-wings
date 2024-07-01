@@ -9,7 +9,8 @@
                         <li><a href="index.php">Home</a></li>
                         <li><a href="Product.php">Product</a></li>
                         <li><a href="about.php">About</a></li>
-                        <li><a href="contact.php">Contact </a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="Choose_your_box_size_one.php">Choose your plan</a></li>
                     </ul>
                     <div class="header-right for--mob">
                         <div class="singin--btn">

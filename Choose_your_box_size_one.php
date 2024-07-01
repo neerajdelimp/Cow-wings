@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link rel="stylesheet" href="css/custom.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
 </head>
@@ -20,6 +20,9 @@
     <?php include 'includes/product_header.php';?>
     <!-- header section end -->
 
+<div class="progress--bar">
+    <img src="images/progressbar.png" alt="">
+</div>
 
     <!-- Choose your box size start -->
     <section class="feature--pro--sec  pb--100 pt--100">
@@ -41,7 +44,7 @@
                         <li>Choose your specific cuts of meat</li>
                         <li>Options for seafood & more</li>
                     </ul>
-                    <button class="cust--btn"><a href="#">Select This</a></button>
+                    <button class="cust--btn add-item"><a href="">Select This</a></button>
                 </div>
                 <div class="plan--box">
                     <h3>Curated Plan</h3>
@@ -51,7 +54,7 @@
                         <li>Free shipping, cancel anytime</li>
                         <li>Choose your type of meat</li>
                     </ul>
-                    <button class="cust--btn"><a href="#">Select This</a></button>
+                    <button class="cust--btn add-item"><a href="">Select This</a></button>
                 </div>
                 <div class="plan--box">
                     <h3>Custom Plan</h3>
@@ -63,12 +66,12 @@
                         <li>Choose your specific cuts of meat</li>
                         <li>Options for seafood & more</li>
                     </ul>
-                    <button class="cust--btn"><a href="#">Select This</a></button>
+                    <button class="cust--btn add-item"><a href="">Select This</a></button>
                 </div>
 
             </div>
 
-            <button class="cust--btn"><a href="#">Next</a></button>
+            <button class="cust--btn"><a href="Choose_your_box_size_two.php">Next</a></button>
         </div>
     </section>
 
@@ -79,7 +82,7 @@
     <?php include 'includes/footer.php';?>
     <!-- footer end -->
 
->
+
 </body>
 
 </html>
