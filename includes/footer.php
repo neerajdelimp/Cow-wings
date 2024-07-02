@@ -8,13 +8,13 @@
                     </div>
                     <div class="footer--copyright copyright-show">
                         <p>Copyright © 2023 Cow Wings</p>
-                        <p>Designed By Delimp <span> <a href="https://delimp.com/"> <img src="images/delimp-logo.png" alt="Delimp logo"></a></span></p>
+                        <a href="https://delimp.com/"><p>Design And Developed By<span><img src="images/delimp-logo.png" alt="Delimp logo"></span></p></a>
                     </div>
                 </div>
                 <div class="footer--menu--sec">
 
                     <div class="footer--page">
-                        <h5 class="heading--h5 f-Inter">Pages</h5>
+                        <h5 class="heading--h5 f-Inter">Quick Links</h5>
                         <div class="foote--menu">
                             <ul>
                                 <li><a href="index.php">Home</a></li>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="footer--copyright copyright-hide">
                     <p>Copyright © 2023 Cow Wings</p>
-                    <p>Designed By Delimp <span> <a href="https://delimp.com/"> <img src="images/delimp-logo.png" alt="Delimp logo"></a></span></p>
+                    <a href="https://delimp.com/"><p>Design And Developed By<span><img src="images/delimp-logo.png" alt="Delimp logo"></span></p></a>
                 </div>
             </div>
         </div>

@@ -75,11 +75,16 @@ $(document).ready(function(){
         $(".hamburger--mpb .fa-bars").toggleClass("fa-times");
       });
 
+      $(".dropdown").click(function(){
+        $(".dropdown").toggleClass("dropdown--show");
+      });
 
       // date pickere
 
       $( function() {
-        $( "#datepicker" ).datepicker();
+        $( "#datepicker" ).datepicker({
+          width: '100px'
+        });
       } );
 
       //  toggle btn
@@ -141,16 +146,13 @@ if($('.counter--section').length > 0){
     });
     cust_counter = 1;
   }
-}
-  
+}  
 });
 
 
 
 // tabbing 
-
 function openCity(evt, productname) {
-
   if($('.tabcontent').length > 0){
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -169,7 +171,10 @@ function openCity(evt, productname) {
 
 document.addEventListener("DOMContentLoaded", function() {
   let tablinks = document.getElementsByClassName("tablinks")[0];
-  tablinks.click();
+  if(document.getElementsByClassName("tablinks").length > 0){
+    tablinks.click();
+  }
+
 });
 
 
