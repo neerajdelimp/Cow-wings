@@ -1320,7 +1320,7 @@ transition: all ease 0.3s;
   .form--box form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
   }
   .input-box,
   .textarea-box {
@@ -1582,7 +1582,8 @@ section.product--header-sec.pro--active .header--section{
 .how--often--section {
   background: var(--gray);
   margin-top: 20px;
-  padding: clamp(15px, 2vw, 30px);
+  /* padding: clamp(15px, 2vw, 30px); */
+  padding: clamp(6px, 2vw, 30px);
   display: flex;
   justify-content: space-between;
   gap: clamp(20px, 3vw, 50px);
@@ -1595,6 +1596,9 @@ section.product--header-sec.pro--active .header--section{
   max-width: 600px;
   align-items: center;
   gap: 15px;
+}
+.often-heading p {
+  text-align: center;
 }
 .every--week--box {
   width: 100%;
@@ -1895,10 +1899,12 @@ font-size: 18px !important;
 
 
 /* singin form start */
-
-.singin--section .form--box h2.heading--h2 {
+.singin--section .form--box .form--heading--box{
+  margin-bottom: 40px;  
+}
+.singin--section .form--box .form--heading--box h2.heading--h2 {
   text-transform: capitalize;
-  margin-bottom: 30px;
+
   text-align: center;
 }
 .singin--section .form--box {
@@ -1932,6 +1938,22 @@ font-size: 18px !important;
 }
 .login--mob i {
   color: var(--red);
+}
+.singin {
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+.singin label {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+sup.mandatory--field {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 900;
 }
 /* singin form end */
 
@@ -2527,6 +2549,13 @@ font-size: 18px !important;
   .singin--box {
     flex-direction: row !important;
 }
+.selact--date {
+  width: fit-content;
+  margin: 0px auto;
+}
+.selact--time {
+  padding: 15px !important;
+}
   }
   
 
@@ -2550,5 +2579,6 @@ font-size: 18px !important;
       flex-grow: 1;
   }
   .selact--date {
-    padding: 15px 5px;}
+    padding: 15px 3px;
+  }
   }

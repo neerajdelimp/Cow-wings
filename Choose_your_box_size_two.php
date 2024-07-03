@@ -99,7 +99,7 @@
                                 <div id="datepicker"></div>
                             </div>
                         </div>
-                        <div class="selact--date ">
+                        <div class="selact--date selact--time">
                             <h3>Select Time</h3>
                             <div class="time--calender">
                                 <input type="time">

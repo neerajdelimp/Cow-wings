@@ -30,54 +30,29 @@
     <!-- hero slider section end -->
 
 
-    <!-- Featured Products section start -->
+
 
     <section class="feature--pro--sec singin--section  pb--100 pt--100">
         <div class="custtom-contaner">
-            <!-- <div class="Featured-heading---box ">
-           
-            </div> -->
+          <div class="form--box">
 
-
-            <div class="form--box">
-            <div class="form--heading--box">
-                <h2 class="heading--h2">Sign in</h2>
-</div>
-         
-                <form action="">
-                  <div class="name-box singin">
-                    <label for=""><i class="fa fa-user" aria-hidden="true"></i><span> User Email <sup class="mandatory--field">*</sup></span></label>
-                    <input class="input-box outerlinenone" type="Email">
-                  </div>
-    
-                  <div class="name-box singin">
-                  <label for=""><i class="fa fa-key" aria-hidden="true"></i><span>Password <sup class="mandatory--field">*</sup></span></label>
-                    <input class="input-box outerlinenone" type="Password">
-                  </div>
-                  <div class="name-box forget--box">
-                  <p><a href="Forgot_Password.php">Forgot password?</a></p>
-                  </div>
-                
-                  <input class="form--submit--btn f-Inter transiction outerlinenone" type="submit" value="Signin">
-                  <div class="name-box singin--box">
-                    <p><span>Don't have an account? </span><a href="SignUp.php">Signup</a></p>
-                    </div>
-                </form>
+              <div class="form--heading--box">
+                <h2 class="heading--h2">Forgot Password</h2>
               </div>
-<!-- 
 
-              <div class="form--box">
                 <form action="">
-            
-                  <input class="form--submit--btn f-Inter transiction outerlinenone" type="submit" value="Submit">
+                  <div class="name-box singin">
+                    <label for=""><i class="fa fa-user" aria-hidden="true"></i><span>Username<sup class="mandatory--field">*</sup></span></label>
+                    <input class="input-box outerlinenone" type="text">
+                  </div>
+                  <input class="form--submit--btn f-Inter transiction outerlinenone" type="submit" value="Forgot Password">
                 </form>
-              </div> -->
+
+              </div>
           </div>
     </section>
 
-    <!-- Featured Products section end -->
     <!-- footer start -->
-
     <?php include 'includes/footer.php';?>
     <!-- footer end -->
 

@@ -40,44 +40,31 @@
 
 
             <div class="form--box">
-            <div class="form--heading--box">
-                <h2 class="heading--h2">Sign Up</h2>
+              <div class="form--heading--box">
+                <h2 class="heading--h2">Reset Password</h2>
 </div>
-        
                 <form action="">
-                <div class="name-box">
-                    <div class="name-box singin">
-                      <label for=""><i class="fa fa-user"></i><span>First Name <sup class="mandatory--field">*</sup></span></label>
-                        <input class="input-box outerlinenone" type="Email">
-                      </div>
-                      <div class="name-box singin">
-                        <label for=""><i class="fa fa-user"></i><span>Last Name <sup class="mandatory--field">*</sup></span></label>
-                          <input class="input-box outerlinenone" type="Email">
-                        </div>
-                  </div>
-              
-                  <div class="name-box singin">
-                  <label for=""><i class="fa-solid fa-envelope"></i><span>Email <sup class="mandatory--field">*</sup></span></label>
-                    <input class="input-box outerlinenone" type="Email">
-                  </div>
-
-                  <div class="name-box singin">
-                  <label for=""><i class="fa-solid fa-phone"></i><span>Phone <sup class="mandatory--field">*</sup></span></label>
-                    <input class="input-box outerlinenone" type="text">
-                  </div>
-
-                  <div class="name-box singin">
+                <div class="name-box singin">
                   <label for=""><i class="fa fa-key" aria-hidden="true"></i><span>Password <sup class="mandatory--field">*</sup></span></label>
                     <input class="input-box outerlinenone" type="Password">
                   </div>
-
-                  <input class="form--submit--btn f-Inter transiction outerlinenone" type="submit" value="Signup">
-                  <div class="name-box singin--box">
-                    <p><span>Already have an account?</span><a href="Signin.php">Login</a></p>
-                
-                    </div>
+                  <div class="name-box singin">
+                  <label for=""><i class="fa fa-key" aria-hidden="true"></i><span>Confirm Password <sup class="mandatory--field">*</sup></span></label>
+                    <input class="input-box outerlinenone" type="Password">
+                  </div>
+          
+                  <input class="form--submit--btn f-Inter transiction outerlinenone" type="submit" value="Reset Password">
+              
                 </form>
               </div>
+<!-- 
+
+              <div class="form--box">
+                <form action="">
+            
+                  <input class="form--submit--btn f-Inter transiction outerlinenone" type="submit" value="Submit">
+                </form>
+              </div> -->
           </div>
     </section>
 
